@@ -1,0 +1,13 @@
+{
+  "name": "pharmacy-whatsapp-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A WhatsApp ordering agent for a multi-branch pharmacy: takes delivery orders in chat, routes them to the nearest branch, and sends refill reminders. Runs in practice mode with no keys.",
+  "scripts": {
+    "demo": "node scripts/demo.ts",
+    "start": "node src/server.ts",
+    "reminders": "node scripts/reminders.ts"
+  },
+  "engines": { "node": ">=22.18" }
+}

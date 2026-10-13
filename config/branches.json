@@ -1,0 +1,12 @@
+{
+  "_note": "SAMPLE branches and areas. Replace with the pharmacy's real branches, WhatsApp numbers and the areas each one delivers to.",
+  "branches": [
+    { "id": "gulberg",   "name": "Gulberg branch",     "whatsapp": "+92 300 0000001", "areas": ["gulberg", "liberty", "main boulevard", "jail road"] },
+    { "id": "dha",       "name": "DHA branch",         "whatsapp": "+92 300 0000002", "areas": ["dha", "defence", "cantt", "walton"] },
+    { "id": "johar",     "name": "Johar Town branch",  "whatsapp": "+92 300 0000003", "areas": ["johar town", "wapda town", "expo", "emporium"] },
+    { "id": "modeltown", "name": "Model Town branch",  "whatsapp": "+92 300 0000004", "areas": ["model town", "faisal town", "garden town", "township"] },
+    { "id": "bahria",    "name": "Bahria Town branch", "whatsapp": "+92 300 0000005", "areas": ["bahria", "valencia", "lake city", "raiwind"] }
+  ],
+  "rxOnly": ["amoxicillin", "augmentin", "azithromycin", "ciprofloxacin", "tramadol", "alprazolam", "insulin"],
+  "chronic": ["metformin", "amlodipine", "atorvastatin", "losartan", "insulin", "levothyroxine", "aspirin 75"]
+}
